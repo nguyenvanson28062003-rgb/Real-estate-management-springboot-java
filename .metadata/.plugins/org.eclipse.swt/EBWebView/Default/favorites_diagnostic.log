@@ -1,0 +1,16 @@
+2026-07-01 12:48:50.360: [INFO] OnDoneLoading sync enabled: 0
+2026-07-01 12:50:59.959: [INFO] OnDoneLoading sync enabled: 0
+2026-07-01 12:51:26.105: [INFO] OnDoneLoading sync enabled: 0
+2026-07-01 12:51:40.102: [INFO] OnDoneLoading sync enabled: 0
+2026-07-01 13:03:16.031: [INFO] OnDoneLoading sync enabled: 0
+2026-07-01 13:09:46.479: [INFO] OnDoneLoading sync enabled: 0
+2026-08-22 13:34:13.542: [INFO] CurrentProfilePath: C:\Users\nguye\Documents\eclipse-workspace\spring-boot-non-jwt\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-22 13:34:13.542: [INFO] Profiles total count: 1
+2026-08-22 13:34:13.546: [INFO] Profile: name=Profile 1 path=C:\Users\nguye\Documents\eclipse-workspace\spring-boot-non-jwt\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-07-01T12:51:26.796Z
+2026-08-22 13:34:13.546: [INFO] LastUsedProfileDir: C:\Users\nguye\Documents\eclipse-workspace\spring-boot-non-jwt\.metadata\.plugins\org.eclipse.swt\EBWebView\Default
+2026-08-22 13:34:13.546: [INFO] MostRecentlyActiveProfile: name=Profile 1 path=C:\Users\nguye\Documents\eclipse-workspace\spring-boot-non-jwt\.metadata\.plugins\org.eclipse.swt\EBWebView\Default lastActive=2026-07-01T12:51:26.796Z
+2026-08-22 13:34:13.546: [INFO] OnDoneLoading sync enabled: 0
+2026-08-22 13:34:13.546: [INFO] BookmarkModelLoaded, ids_reassigned: 0
+2026-08-22 13:34:13.546: [INFO] BookmarksLoadDropped droppedNodes=0
+2026-08-22 13:34:13.546: [INFO] BookmarksSnapshot Startup total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
+2026-08-22 13:40:56.000: [INFO] BookmarksSnapshot Shutdown total=0 bar=0 other=0 mobile=0 showBar=0 showBarNTP=1
