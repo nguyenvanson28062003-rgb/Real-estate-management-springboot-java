@@ -8,20 +8,34 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.javaweb.model.BuildingDTO;
+import com.javaweb.model.BuildingSearchDTO;
 import com.javaweb.service.BuildingService;
 
 @RestController
 public class BuildingAPI {
 
-    private static final String Long = null;
 	@Autowired
     private BuildingService builSe;
 
     @GetMapping(value = "/api/building")
-    public List<BuildingDTO> getB(@RequestParam(value = "name", required = false) String name,
-    							  @RequestParam(value = "s", required = false) Float dien_tich) {
-        List<BuildingDTO> result = builSe.findAll(name, dien_tich);   // gọi service, gán vào biến LOCAL bên trong method
-        return result;
+//    public List<BuildingDTO> getB(@RequestParam(value = "ma_toanha", required = false) String ma_toanha,
+//    							  @RequestParam(value = "name", required = false) String ten_toanha,
+//    							  @RequestParam(value = "dia_chi", required = false) String dia_chi,
+//    							  @RequestParam(value = "ma_khuvuc", required = false) String ma_khuvuc,
+//    							  @RequestParam(value = "so_tang", required = false) Integer so_tang,
+//    							  @RequestParam(value = "gia", required = false) Double gia,
+//    							  @RequestParam(value = "dien_tich", required = false) Double dien_tich) {
+//    	  BuildingSearchDTO searchDTO = new BuildingSearchDTO();
+//          searchDTO.setTenToaNha(ten_toanha);
+//          searchDTO.setMaKhuVuc(ma_khuvuc);
+//          searchDTO.setSoTang(so_tang);
+//          searchDTO.setGiaTu(gia);        
+//          searchDTO.setDienTichTu(dien_tich);
+//       
+//        return builSe.search(searchDTO);
+//    }
+    public List<BuildingDTO> getBuilding(BuildingSearchDTO searchDTO) {
+        return builSe.search(searchDTO);
     }
 }
 
